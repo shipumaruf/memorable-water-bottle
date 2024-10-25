@@ -1,0 +1,15 @@
+.bottle{
+    border: 2px solid peru;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.bottle img{
+    width: 300px;
+}
+
+.bottle-layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
